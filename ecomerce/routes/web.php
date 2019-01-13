@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('index.html', 'inicio@index');
+Route::get('informacion.html', 'inicio@informacion');
+Route::get('menu.html', 'inicio@menu');
